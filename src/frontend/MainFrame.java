@@ -92,7 +92,7 @@ public class MainFrame extends JFrame  implements MouseListener{
 			layeredPane.add(scorePanel, Integer.valueOf(4));
 			scorePanel.setVisible(false);
 			
-			stripe=new Stripe(0, 850, 700, 50, 25, 18);
+			stripe=new Stripe(0, 850, 700, 50, 25, 11);
 			layeredPane.add(stripe, Integer.valueOf(2));
 			stripe.setVisible(false);
 			

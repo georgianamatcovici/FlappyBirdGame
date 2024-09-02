@@ -24,7 +24,7 @@ public class Obstacle extends JLabel{
 		//this.setBounds(X, 0, obstacleWidth, obstacleHeight);
 		 this.setOpaque(false);
 		 obstaclePassed=false;
-		 this.SetMoveToLeft(time, distance, bird, frame, obstacles, distObstacles, scorePanel);
+		// this.SetMoveToLeft(time, distance, bird, frame, obstacles, distObstacles, scorePanel);
 	}
 	
 	 @Override
@@ -41,9 +41,10 @@ public class Obstacle extends JLabel{
 	      
 	 }
 	 
-	    public void SetMoveToLeft(int time, int distance, Bird bird, MainFrame frame, LinkedList<Obstacle> obstacles, int distObstacles, ScorePanel scorePanel)
+	    public void MoveToLeft( int distance, Bird bird, MainFrame frame, LinkedList<Obstacle> obstacles, int distObstacles, ScorePanel scorePanel)
 	    {
-	     timer=new Timer(time, e->{X-=distance;
+	    // timer=new Timer(time, e->{
+	    	X-=distance;
 	    	 this.setLocation(X, 0);
 	    	 if(X+obstacleWidth>=162 && X<230)
 	    	 {
@@ -75,17 +76,17 @@ public class Obstacle extends JLabel{
 	    		 obstacles.addLast(this);
 	    		 obstacles.removeFirst();
 	    	 }
-	    		 });
+	    		// });
 
 	    }
-	    public void StartMoving()
-	    {
-	    	timer.start();
-	    }
-	    public void StopMoving()
-	    {
-	    	timer.stop();
-	    }
+//	    public void StartMoving()
+//	    {
+//	    	timer.start();
+//	    }
+//	    public void StopMoving()
+//	    {
+//	    	timer.stop();
+//	    }
 	    
 	    public void SetX(int X)
 	    {

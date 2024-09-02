@@ -57,28 +57,17 @@ public class UpdateScore {
     {
     	
     	ReadScore();
-        //System.out.println("Scorul citit din fisier este: " + currentScore);
     	return currentScore;
     }
     
     
 	public static void Update(int score)
 	{
-//		 try (BufferedReader reader = new BufferedReader(new FileReader("/HighestScore"))) {
-//	            String line = reader.readLine();
-//	            int currentScore = Integer.parseInt(line);
-//	            System.out.println("Scorul citit din fisier este: " + currentScore);
-//	        } catch (IOException | NumberFormatException e) {
-//	            e.printStackTrace();
-//	        }
+
   
           ReadScore();
          if(score>currentScore) WriteScore(score);
 	
-		
-		
-	
-		//BufferedReader reader = new BufferedReader(new FileReader("HighestScore")); 
 			
 		
 		

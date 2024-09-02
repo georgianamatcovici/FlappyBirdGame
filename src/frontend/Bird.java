@@ -118,7 +118,7 @@ public class Bird extends JLabel {
     
     public void SetFall(MainFrame frame)
     {
-    	timerFall=new Timer(25, e->{Y=Y+18;
+    	timerFall=new Timer(25, e->{Y=Y+13;
         if(Y+5+36>850) frame.StopRunning();
     	this.setLocation(X-radius-20, Y-radius-10);});
     	
@@ -216,7 +216,7 @@ public class Bird extends JLabel {
 //			// TODO Auto-generated catch block
 //			e1.printStackTrace();
 //		}
-		this.Rise(75);
+		this.Rise(85);
 	//scheduler.schedule(this::FallRotate, 50, TimeUnit.MILLISECONDS);
 	
     	this.Fall();
