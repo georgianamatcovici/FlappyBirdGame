@@ -34,5 +34,7 @@ This is a Flappy Bird game written in Java using Java Swing. The game involves c
 - OOP- Object-Oriented Programming principles to structure the game.
 - Object Pooling Pattern - Design pattern used for efficient obstacle management.
 
-##Screenshots
+## Screenshots
+![image](https://github.com/user-attachments/assets/a73a1c06-ae82-4b30-9c13-8494fc2f5391)
+
 
