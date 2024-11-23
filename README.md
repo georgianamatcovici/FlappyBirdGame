@@ -36,5 +36,9 @@ This is a Flappy Bird game written in Java using Java Swing. The game involves c
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/a73a1c06-ae82-4b30-9c13-8494fc2f5391)
+![image](https://github.com/user-attachments/assets/4c8c34d9-ac78-4431-be87-38201f6fb4d9)
+![image](https://github.com/user-attachments/assets/1cceb0bd-ce1b-4e7b-8571-cb8c63de6bb4)
+
+
 
 
